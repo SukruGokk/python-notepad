@@ -18,9 +18,7 @@ KURULUMLARI:
 
 pip install PyQt5
 
-pip install webbrowser
-
-os ve sys kütüphaneleri python'da default olarak gelmektedir.
+os, webbrowser ve sys kütüphaneleri python'da default olarak gelmektedir.
 
 
 NASIL KULLANILIR:

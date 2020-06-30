@@ -242,6 +242,10 @@ class MainWindow(QMainWindow):
         # Pencereyi boyutlandırıyoruz
         self.setGeometry(200, 100, 1000, 700)
 
+
+        # Icon ayarlıyoruz
+        self.setWindowIcon(QIcon(path.join('images', 'icon.png')))
+
         # Update title methodu'nun amacı şu; eğer yeni bir dosya açıldıysa başlığında o dosyanın adı olarak değişmesi
         self.update_title()
         self.show()

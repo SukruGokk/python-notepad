@@ -40,6 +40,8 @@ Bu menülerin alt seçenekleri:
 
 ~~ Dosya ~~
 
+![alt text](https://github.com/SukruGokk/python-notepad/blob/master/file_menu.jpg)
+
 Dosya aç veya yeni oluştur (Ctrl+O)
 
 Kaydet (Ctrl+S)
@@ -48,6 +50,9 @@ Yazdır (Ctrl+P)
 
 
 ~~ Düzenle ~~
+
+![alt text](https://github.com/SukruGokk/python-notepad/blob/master/edit_menu.jpg)
+
 
 Geri al (Ctrl+Z)
 

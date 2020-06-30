@@ -75,10 +75,14 @@ Tüm metni web'de url olarak aç (Ctrl+U)
 
 ~~ Yardım ~~
 
+![alt text](https://github.com/SukruGokk/python-notepad/blob/master/help_menu.jpg)
+
 Geri bildirim gönder (Ctrl+Shift+T)
 
 
 ~~ Görünüm ~~
+
+![alt text](https://github.com/SukruGokk/python-notepad/blob/master/appearance_menu.jpg)
 
 Temayı değiştir (Ctrl+T)
 

@@ -156,8 +156,8 @@ class MainWindow(QMainWindow):
         help_menu.addAction(telegram_action)
         help_toolbar.addAction(telegram_action)
 
-        github_action = QAction(QIcon(path.join('images', 'info')), "Geri bildirim gönder", self)
-        github_action.setStatusTip("Geliştiriciye Telegram ile ulaş (Ctrl+Shift+h)")
+        github_action = QAction(QIcon(path.join('images', 'info')), "GÖK DEFTER nasıl kullanılır ?", self)
+        github_action.setStatusTip("Gök defter nasıl kullanılır ? (Ctrl+Shift+h)")
         github_action.setShortcut("Ctrl+Shift+H")
         github_action.triggered.connect(self.open_github)
         help_menu.addAction(github_action)
@@ -233,7 +233,7 @@ class MainWindow(QMainWindow):
         edit_toolbar.addAction(web_action)
 
         url_action = QAction(QIcon(path.join('images', 'urlOpen.png')), "Tüm metni web'de url olarak aç", self)
-        url_action.setStatusTip("Tüm metni web'de url olarak aç(Ctrl+u)")
+        url_action.setStatusTip("Tüm metni web'de url olarak aç (Ctrl+u)")
         url_action.setShortcut("Ctrl+u")
         url_action.triggered.connect(self.open_link)
         edit_menu.addAction(url_action)

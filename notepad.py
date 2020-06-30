@@ -156,6 +156,13 @@ class MainWindow(QMainWindow):
         help_menu.addAction(telegram_action)
         help_toolbar.addAction(telegram_action)
 
+        github_action = QAction(QIcon(path.join('images', 'info')), "Geri bildirim gönder", self)
+        github_action.setStatusTip("Geliştiriciye Telegram ile ulaş (Ctrl+Shift+h)")
+        github_action.setShortcut("Ctrl+Shift+H")
+        github_action.triggered.connect(self.open_github)
+        help_menu.addAction(github_action)
+        help_toolbar.addAction(github_action)
+
         undo_action = QAction(QIcon(path.join('images', 'undo')), "Geri Al", self)
         undo_action.setStatusTip("Son değişikliği geri al (Ctrl+z)")
         undo_action.setShortcut("Ctrl+z")
@@ -226,7 +233,7 @@ class MainWindow(QMainWindow):
         edit_toolbar.addAction(web_action)
 
         url_action = QAction(QIcon(path.join('images', 'urlOpen.png')), "Tüm metni web'de url olarak aç", self)
-        url_action.setStatusTip("Tüm metni web'de url olarak aç (Ctrl+u)")
+        url_action.setStatusTip("Tüm metni web'de url olarak aç(Ctrl+u)")
         url_action.setShortcut("Ctrl+u")
         url_action.triggered.connect(self.open_link)
         edit_menu.addAction(url_action)
@@ -358,9 +365,13 @@ class MainWindow(QMainWindow):
         if self.editor.lineWrapMode():self.editor.setStatusTip("Sözcük kaydırma: kapalı")
         else:self.editor.setStatusTip("Sözcük kaydırma: açık")
 
-    # Telegramı açan method
+    # Telegram'ı açan method
     def open_telegram(self):
         wbopen("https://t.me/SukruGokk")
+
+    # Github'ı açan method
+    def open_github(self):
+        wbopen("https://github.com/SukruGokk/python-notepad")
 
 if __name__ == '__main__':
     app = QApplication(argv)

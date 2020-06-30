@@ -1,5 +1,5 @@
 # python-notepad
-Bu sefer her şeyi türkçe yaptım. Koddaki yorum satırlarını da türkçe yaptım.
+Bu sefer her şeyi türkçe yaptım.
 
 ![alt text](https://github.com/SukruGokk/python-notepad/blob/master/main.jpg)
 

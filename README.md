@@ -6,7 +6,7 @@ PyQt5
 os
 sys
 webbrowser
-
+ 
 KURULUMLARI:
 pip install PyQt5
 pip install webbrowser

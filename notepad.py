@@ -226,7 +226,7 @@ class MainWindow(QMainWindow):
         edit_toolbar.addAction(web_action)
 
         url_action = QAction(QIcon(path.join('images', 'urlOpen.png')), "Tüm metni web'de url olarak aç", self)
-        url_action.setStatusTip("Tüm metni web'de url olarak aç(Ctrl+u)")
+        url_action.setStatusTip("Tüm metni web'de url olarak aç (Ctrl+u)")
         url_action.setShortcut("Ctrl+u")
         url_action.triggered.connect(self.open_link)
         edit_menu.addAction(url_action)

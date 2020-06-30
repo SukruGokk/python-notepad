@@ -11,7 +11,7 @@ sys
 
 webbrowser
 
- 
+  
 KURULUMLARI:
 
 pip install PyQt5

@@ -87,3 +87,5 @@ Temayı değiştir (Ctrl+T)
 Yazı tipini değiştir (Ctrl+F)
 
 Yazı rengini değiştir (Ctrl+G)
+
+PROGRAMIN EXE HALİ İÇİN: https://s7.dosya.tc/server16/5scopw/gokdefter.zip.html

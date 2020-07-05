@@ -3,7 +3,7 @@
 # TÜRKÇE NOT DEFTERİ #
 ######################
 
-# @author : SukruGokk
+# @author : Şükrü Erdem Gök
 # @date : 28/06/2020
 # @os : Windows 10
 # @version : Python 3.8
